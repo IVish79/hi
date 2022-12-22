@@ -7,5 +7,5 @@ import 'package:register_app/view.dart';
 void main()
 {
   runApp(MaterialApp(debugShowCheckedModeBanner: false,
-  home: login(),));
+  home: sign(),));
 }

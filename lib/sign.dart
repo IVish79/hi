@@ -33,10 +33,10 @@ class _signState extends State<sign> {
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
                           colors: [
-                            Color(0xfffe987b),
-                            Color(0xccfe987b),
-                            Color(0x99fe987b),
-                            Color(0x66fe987b),
+                            Color(0xffcbf439),
+                            Color(0xffd5f952),
+                            Color(0xffddfc69),
+                            Color(0xffe3fe7d),
 
                           ])),
                   child: SingleChildScrollView(
@@ -119,7 +119,7 @@ class _signState extends State<sign> {
                 contentPadding: EdgeInsets.only(top: 14),
                 prefixIcon: Icon(
                   Icons.account_box_rounded,
-                  color: Color(0xfffe987b),
+                  color: Color(0xff000000),
                 ),
                 hintText: 'Name',
                 helperStyle: TextStyle(color: Colors.black38)),
@@ -159,7 +159,7 @@ class _signState extends State<sign> {
                 contentPadding: EdgeInsets.only(top: 14),
                 prefixIcon: Icon(
                   Icons.email,
-                  color: Color(0xfffe987b),
+                  color: Color(0xff000000),
                 ),
                 hintText: 'Email',
                 helperStyle: TextStyle(color: Colors.black38)),
@@ -198,7 +198,7 @@ class _signState extends State<sign> {
                 contentPadding: EdgeInsets.only(top: 14),
                 prefixIcon: Icon(
                   Icons.call,
-                  color: Color(0xfffe987b),
+                  color: Color(0xff000000),
                 ),
                 hintText: 'Contact',
                 helperStyle: TextStyle(color: Colors.black38)),
@@ -238,7 +238,7 @@ class _signState extends State<sign> {
                 contentPadding: EdgeInsets.only(top: 14),
                 prefixIcon: Icon(
                   Icons.lock,
-                  color: Color(0xfffe987b),
+                  color: Color(0xff000000),
                 ),
                 hintText: 'Password',
                 helperStyle: TextStyle(color: Colors.black38)),
@@ -280,7 +280,7 @@ class _signState extends State<sign> {
               "Sign Up",
               style: TextStyle(
                   fontSize: 18,
-                  color: Color(0xfffe987b),
+                  color: Color(0xff000000),
                   fontWeight: FontWeight.bold),
             )),
       ),
